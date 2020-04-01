@@ -63,12 +63,12 @@ h6 {
 
 .section_padding_100 {
     padding-top: 0px;
-    padding-bottom: 100px;
+    padding-bottom: 20px;
 }
 
 .section_padding_100_50 {
-    padding-top: 100px;
-    padding-bottom: 50px;
+    padding-top: 10px;
+    padding-bottom: 30px;
 }
 
 .section_padding_100_70 {
@@ -1158,7 +1158,7 @@ p {
 }
 
 .single-team-member {
-    margin-bottom: 50px;
+    margin-bottom: 10px;
 }
 
 /* --------------------------

@@ -146,3 +146,43 @@
     });
 
 })(jQuery);
+
+$(document).ready(function()
+{
+    "use strict";
+
+$('.scrolldown').click(function() {
+            $('html, body').animate({scrollTop: $('.system').offset().top}, 1000);
+        });
+
+        $('.submit').click(function() {
+            $('html, body').animate({scrollTop: $('#contact').offset().top}, 1500);
+        });
+         $('#button1').click(function() {
+            $('html, body').animate({scrollTop: $('#contact').offset().top}, 1500);
+        });
+          $('#homeFooter').click(function() {
+            $('html, body').animate({scrollTop: $('#home').offset().top}, 1500);
+        });
+           $('#servicesFooter').click(function() {
+            $('html, body').animate({scrollTop: $('#services').offset().top}, 1500);
+        });
+            $('#aboutFooter').click(function() {
+            $('html, body').animate({scrollTop: $('#about').offset().top}, 1500);
+        });
+             $('#toolsFooter').click(function() {
+            $('html, body').animate({scrollTop: $('#tools').offset().top}, 1500);
+        });
+              $('#reviewsFooter').click(function() {
+            $('html, body').animate({scrollTop: $('#reviews').offset().top}, 1500);
+        });
+              $('#contactFooter').click(function() {
+            $('html, body').animate({scrollTop: $('#contact').offset().top}, 1500);
+        });
+               $('#formBelow').click(function() {
+            $('html, body').animate({scrollTop: $('#contact').offset().top}, 1500);
+        });
+
+         
+
+    });
